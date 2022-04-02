@@ -1,0 +1,175 @@
+body{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-image: url("tableTop.jpg");
+    background-size :cover;
+    background-attachment: fixed;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+header, h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 10px;
+}
+
+intro
+{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.buttonNew {
+    margin: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    /* background-color: rgb(0, 0, 0); */
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    flex: 50%;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.75s;
+}
+
+
+.name {
+    position: relative;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.pl {
+    font-size: 24px;
+}
+
+.score {
+    background-color: rgb(146, 67, 67);
+    border-radius: 9px;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+}
+
+.score {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: auto;
+    padding-top: 10px;
+}
+
+.playerActive {
+    background-color: green;
+}
+
+.playerActive .current {
+    opacity: 1;
+}
+
+.current {
+    margin-top: 10rem;
+    background-color: rgb(190, 70, 70);
+    border-radius: 9px;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+}
+
+/* .currentCard {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: #ddd;
+}
+
+.currentScore {
+    font-size: 3.5rem;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.buttonNew {
+
+
+.buttonRoll {
+
+}
+.buttonHold {
+
+
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 24rem;
+    transform: translateX(-50%);
+}
+
+.playerWinner {
+    background-color: #003612;
+}
+
+.playerWinner .name {
+    font-weight: 700;
+    color: #c7365f;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width:1000px){
+    body {
+        flex-direction:unset;
+    }
+    } */
