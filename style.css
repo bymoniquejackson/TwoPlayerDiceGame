@@ -9,7 +9,7 @@ body{
     align-items: center; */
 }
 
-header, h1 {
+/* header, h1 {
     text-align: center;
     font-size: 45px;
     margin: 10px;
@@ -102,7 +102,7 @@ intro
     padding: 2rem;
     text-align: center;
     transition: all 0.75s;
-}
+} */
 
 /* .currentCard {
     text-transform: uppercase;
